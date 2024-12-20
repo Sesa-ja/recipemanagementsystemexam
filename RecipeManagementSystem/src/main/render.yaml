@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: RecipeManagementSystem
+    env: java
+    buildCommand: ./mvnw clean install
+    startCommand: java -jar target/RecipeManagementSystem-0.0.1-SNAPSHOT.jar
+    plan: free # Choose "starter" for paid plan
